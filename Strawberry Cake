@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Strawberry Cake"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
